@@ -1,4 +1,4 @@
-package batching;
+package batching.offline;
 
 import eu.cloudtm.autonomicManager.commons.EvaluatedParam;
 import eu.cloudtm.autonomicManager.commons.ForecastParam;
@@ -15,11 +15,13 @@ public class BatchingInputOracle implements InputOracle {
    private double arrivalRate;
    private double batchingLevel;
    private double realSelfDeliveryTime;
+   private double predSelfDeliveryTime;
 
-   public BatchingInputOracle(double arrivalRate, double batchingLevel, double realSelfDeliveryTime) {
+   public BatchingInputOracle(double arrivalRate, double batchingLevel, double realSelfDeliveryTime, double predSelfDeliveryTime) {
       this.arrivalRate = arrivalRate;
       this.batchingLevel = batchingLevel;
       this.realSelfDeliveryTime = realSelfDeliveryTime;
+      this.predSelfDeliveryTime = predSelfDeliveryTime;
    }
 
    public double getArrivalRate() {
@@ -32,6 +34,10 @@ public class BatchingInputOracle implements InputOracle {
 
    public double getRealSelfDeliveryTime() {
       return realSelfDeliveryTime;
+   }
+
+   public double getPredSelfDeliveryTime() {
+      return predSelfDeliveryTime;
    }
 
    @Override

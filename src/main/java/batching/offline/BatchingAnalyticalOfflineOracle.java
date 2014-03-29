@@ -1,5 +1,6 @@
-package batching;
+package batching.offline;
 
+import batching.BatchingOutputOracle;
 import eu.cloudtm.autonomicManager.oracles.InputOracle;
 import eu.cloudtm.autonomicManager.oracles.Oracle;
 import eu.cloudtm.autonomicManager.oracles.OutputOracle;
@@ -10,12 +11,10 @@ import eu.cloudtm.autonomicManager.oracles.exceptions.OracleException;
  * @email didona@gsd.inesc-id.pt
  * @since 29/03/14
  */
-public class AnalyticalBatchingMetaOracle implements Oracle {
-
-   private final static AnalyticalFileBasedBatchingOracle realModel = new AnalyticalFileBasedBatchingOracle();
+public class BatchingAnalyticalOfflineOracle implements Oracle {
 
    @Override
    public OutputOracle forecast(InputOracle input) throws OracleException {
-      return realModel.forecast(input);
+      return new BatchingOutputOracle(((BatchingInputOracle) input).getRealSelfDeliveryTime());
    }
 }

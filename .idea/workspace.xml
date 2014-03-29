@@ -73,22 +73,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnalyticalFileBasedBatchingOracle.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java">
+      <file leaf-file-name="AnalyticalFileBasedBatchingOracle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalFileBasedBatchingOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="143" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.625387" vertical-offset="241" max-vertical-offset="900">
+            <state line="45" column="146" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="930">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#667#710#0" expanded="true" />
+                <element signature="e#761#804#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AnalyticalBatchingMetaOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalBatchingMetaOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="18" column="39" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,18 +108,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingInputOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java">
+      <file leaf-file-name="BatchingAnalyticalOfflineOracle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOfflineOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="49" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+            <state line="17" column="93" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BatchingInputOracle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.8962264" vertical-offset="0" max-vertical-offset="1170">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,8 +154,10 @@
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalFileBasedBatchingOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOfflineOracle.java" />
       </list>
     </option>
   </component>
@@ -253,6 +267,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="batching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="offline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deprecated" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,6 +511,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalBatchingMetaOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="930">
@@ -447,36 +530,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalFileBasedBatchingOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="45" column="146" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="930">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#761#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOfflineOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="93" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="49" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1080">
+        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.8962264" vertical-offset="0" max-vertical-offset="1170">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="143" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.625387" vertical-offset="241" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#667#710#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
           </folding>
         </state>
       </provider>

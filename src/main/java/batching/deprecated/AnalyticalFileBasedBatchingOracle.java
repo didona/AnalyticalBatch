@@ -1,5 +1,7 @@
-package batching;
+package batching.deprecated;
 
+import batching.offline.BatchingInputOracle;
+import batching.BatchingOutputOracle;
 import eu.cloudtm.autonomicManager.oracles.InputOracle;
 import eu.cloudtm.autonomicManager.oracles.Oracle;
 import eu.cloudtm.autonomicManager.oracles.OutputOracle;
@@ -41,7 +43,7 @@ public class AnalyticalFileBasedBatchingOracle implements Oracle {
 
    private void parseAndAdd(String s) {
       String[] split = s.split(sep);
-      BatchingInputOracle bio = new BatchingInputOracle(Double.parseDouble(split[L]), Double.parseDouble(split[B]), Double.parseDouble(split[R]));
+      BatchingInputOracle bio = new BatchingInputOracle(Double.parseDouble(split[L]), Double.parseDouble(split[B]), Double.parseDouble(split[R]),0);
       BatchingOutputOracle boo = new BatchingOutputOracle(Double.parseDouble(split[P]));
       map.put(bio, boo);
    }
