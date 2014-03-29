@@ -20,6 +20,11 @@ public class AnalyticalFileBasedBatchingOracle implements Oracle {
 
    private final static String file = "data/batch.data";
    private Map<BatchingInputOracle, BatchingOutputOracle> map = new HashMap<BatchingInputOracle, BatchingOutputOracle>();
+   private final static String sep = ",";
+   private final static int L = 0;
+   private final static int B = 1;
+   private final static int P = 2;
+   private final static int R = 3;
 
    public AnalyticalFileBasedBatchingOracle() {
       try {
@@ -35,11 +40,15 @@ public class AnalyticalFileBasedBatchingOracle implements Oracle {
    }
 
    private void parseAndAdd(String s) {
-      //TODO parse the string, create In and Out, put it into the map
+      String[] split = s.split(sep);
+      BatchingInputOracle bio = new BatchingInputOracle(Double.parseDouble(split[L]), Double.parseDouble(split[B]), Double.parseDouble(split[R]));
+      BatchingOutputOracle boo = new BatchingOutputOracle(Double.parseDouble(split[P]));
+      map.put(bio, boo);
    }
 
    @Override
    public OutputOracle forecast(InputOracle inputOracle) throws OracleException {
       BatchingInputOracle bio = (BatchingInputOracle) inputOracle;
+      return map.get(bio);
    }
 }

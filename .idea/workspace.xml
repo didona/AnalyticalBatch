@@ -68,9 +68,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="21" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding>
-                <marker date="1396107368000" expanded="true" signature="429:632" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +76,7 @@
       <file leaf-file-name="AnalyticalFileBasedBatchingOracle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="69" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.7311321" vertical-offset="90" max-vertical-offset="765">
+            <state line="43" column="143" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.625387" vertical-offset="241" max-vertical-offset="900">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#667#710#0" expanded="true" />
@@ -87,11 +85,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingAnalyticalModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingAnalyticalModel.java">
+      <file leaf-file-name="AnalyticalBatchingMetaOracle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
+            <state line="18" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +99,10 @@
       <file leaf-file-name="BatchingOutputOracle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="900">
+            <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,23 +111,16 @@
       <file leaf-file-name="BatchingInputOracle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="65" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="885">
+            <state line="61" column="49" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Param.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AutonomicManager/autonomicManager/src/main/java/eu/cloudtm/autonomicManager/commons/Param.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="3" selection-start="9898" selection-end="9919" vertical-scroll-proportion="-7.923077" vertical-offset="1999" max-vertical-offset="4065">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,10 +138,11 @@
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingQuery.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingPredictor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java" />
       </list>
     </option>
@@ -423,15 +416,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <marker date="1396107368000" expanded="true" signature="429:632" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/eu/cloudtm/AutonomicManager/1.0-SNAPSHOT/autonomicManager-1.0-SNAPSHOT.jar!/eu/cloudtm/autonomicManager/commons/Param.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="12" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
@@ -441,45 +425,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../AutonomicManager/autonomicManager/src/main/java/eu/cloudtm/autonomicManager/commons/Param.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="3" selection-start="9898" selection-end="9919" vertical-scroll-proportion="-7.923077" vertical-offset="1999" max-vertical-offset="4065">
+        <state line="138" column="110" selection-start="9244" selection-end="9244" vertical-scroll-proportion="0.09380235" vertical-offset="1999" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="900">
+        <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="219" max-vertical-offset="930">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingAnalyticalModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
+        <state line="18" column="39" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="65" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="885">
+        <state line="61" column="49" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1080">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="69" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.7311321" vertical-offset="90" max-vertical-offset="765">
+        <state line="43" column="143" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.625387" vertical-offset="241" max-vertical-offset="900">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#667#710#0" expanded="true" />

@@ -1,6 +1,5 @@
 package batching;
 
-import eu.cloudtm.autonomicManager.commons.Param;
 import eu.cloudtm.autonomicManager.oracles.OutputOracle;
 
 /**
@@ -50,5 +49,8 @@ public class BatchingOutputOracle implements OutputOracle {
       throw new UnsupportedOperationException("Not supported");
    }
 
-
+   @Override
+   public boolean equals(Object o) {
+      return o instanceof BatchingOutputOracle && ((BatchingOutputOracle) o).selfDeliveryTime == this.selfDeliveryTime;
+   }
 }
