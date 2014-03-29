@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: eu.cloudtm:autonomicManager:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/cloudtm/AutonomicManager/1.0-SNAPSHOT/autonomicManager-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/cloudtm/autonomicManager/1.0-SNAPSHOT/autonomicManager-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/eu/cloudtm/autonomicManager/1.0-SNAPSHOT/autonomicManager-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../AutonomicManager/webIf/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../AutonomicManager/autonomicManager/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
