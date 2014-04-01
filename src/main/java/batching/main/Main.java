@@ -2,6 +2,7 @@ package batching.main;
 
 import batching.offline.BatchingAnalyticalOracle;
 import batching.offline.BatchingInputOracle;
+import batching.offline.BatchingPaoloAnalyticalOracle;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -33,10 +34,12 @@ public class Main {
    public static void main(String[] args) throws Exception {
       BufferedReader br = new BufferedReader(new FileReader(new File(file)));
       String read;
+      System.out.println("Arr" + " = " + "B" + " = " + "R = R " + " = " + "P"+  " = PaolP");
       while ((read = br.readLine()) != null) {
          BatchingInputOracle bio = inputFromLine(read);
          double pred = (new BatchingAnalyticalOracle().forecast(bio)).responseTime(0);
-         System.out.println(bio.getArrivalRate() + " = " + bio.getBatchingLevel() + " = " + bio.getRealSelfDeliveryTime() + " = " + pred);
+         double paoloPred = (new BatchingPaoloAnalyticalOracle().forecast(bio)).responseTime(0);
+         System.out.println(bio.getArrivalRate() + " = " + bio.getBatchingLevel() + " = " + bio.getRealSelfDeliveryTime() + " = " + bio.getRealSelfDeliveryTime() + " = " + pred + "  = " + paoloPred);
       }
    }
 

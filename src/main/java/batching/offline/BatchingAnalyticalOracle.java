@@ -26,7 +26,7 @@ public class BatchingAnalyticalOracle implements Oracle {
       return new BatchingOutputOracle(analyticalSelfDelivery(bio.getArrivalRate(), bio.getBatchingLevel()));
    }
 
-   private double analyticalSelfDelivery(double lambda, double b) {
+   protected double analyticalSelfDelivery(double lambda, double b) {
 
       return fb3(net, s, lambda, alfa, alfa_2, book, c, b);
    }
