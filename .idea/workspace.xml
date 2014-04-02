@@ -96,7 +96,7 @@
       <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="19" selection-start="5862" selection-end="5862" vertical-scroll-proportion="0.8181818" vertical-offset="2385" max-vertical-offset="3285">
+            <state line="45" column="54" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.8181818" vertical-offset="390" max-vertical-offset="3465">
               <folding />
             </state>
           </provider>
@@ -105,16 +105,7 @@
       <file leaf-file-name="FitPaolo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="out.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/out.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="17760" max-vertical-offset="170205">
+            <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1185">
               <folding />
             </state>
           </provider>
@@ -335,24 +326,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ensemble" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalyticalBatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="455" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/out.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="17760" max-vertical-offset="170205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/batch.data">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="92" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="7980">
@@ -867,20 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/out.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="48705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="26" selection-start="438" selection-end="438" vertical-scroll-proportion="0.4373178" vertical-offset="0" max-vertical-offset="405">
@@ -946,9 +898,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="19" selection-start="5862" selection-end="5862" vertical-scroll-proportion="0.8181818" vertical-offset="2385" max-vertical-offset="3285">
+        <state line="45" column="54" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.8181818" vertical-offset="390" max-vertical-offset="3465">
           <folding />
         </state>
       </provider>
