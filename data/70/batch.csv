@@ -1,2 +1,2 @@
-AvgTxArrivalRate,AvgPrepareCommandSize,ReadOnlyTxTotalResponseTime
-5500,16,6758
+SLAVE_INDEX,AvgNumPutsBySuccessfulLocalTx,AvgPrepareCommandSize,AvgGetsPerWrTransaction
+0,5500,16,6758

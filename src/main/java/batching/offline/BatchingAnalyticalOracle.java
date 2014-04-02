@@ -1,6 +1,7 @@
 package batching.offline;
 
 import batching.BatchingOutputOracle;
+import eu.cloudtm.autonomicManager.commons.Param;
 import eu.cloudtm.autonomicManager.oracles.InputOracle;
 import eu.cloudtm.autonomicManager.oracles.Oracle;
 import eu.cloudtm.autonomicManager.oracles.OutputOracle;
@@ -15,15 +16,21 @@ public class BatchingAnalyticalOracle implements Oracle {
 
    private final static double net = 900D;  //0  in the paper  (not present)
    private final static double alfa = 1D; //Not in the paper
-   private final static double alfa_2 =1.5D;// 1.5D; //1 in the paper   (not present)
+   private final static double alfa_2 = 1.5D;// 1.5D; //1 in the paper   (not present)
    private final static double s = 4800D; // T_1st in the paper
    private final static double book = 1D / (s * 10.5);  // 1/T_add in the paper
    private final static double c = 2; //It is just "2" in the paper
 
    @Override
    public OutputOracle forecast(InputOracle input) throws OracleException {
-      BatchingInputOracle bio = (BatchingInputOracle) input;
-      return new BatchingOutputOracle(analyticalSelfDelivery(bio.getArrivalRate(), bio.getBatchingLevel()));
+      if (input instanceof BatchingInputOracle) {
+         BatchingInputOracle bio = (BatchingInputOracle) input;
+         return new BatchingOutputOracle(analyticalSelfDelivery(bio.getArrivalRate(), bio.getBatchingLevel()));
+      } else {
+         double lambda = (Double) (input.getParam(Param.AvgNumPutsBySuccessfulLocalTx));
+         double batchingLevel = (Double) input.getParam(Param.AvgPrepareCommandSize);
+         return new BatchingOutputOracle(analyticalSelfDelivery(lambda, batchingLevel));
+      }
    }
 
    protected double analyticalSelfDelivery(double lambda, double b) {
