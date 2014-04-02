@@ -3,10 +3,13 @@ package batching.main;
 import batching.offline.BatchingAnalyticalOracle;
 import batching.offline.BatchingInputOracle;
 import batching.offline.BatchingPaoloAnalyticalOracle;
+import eu.cloudtm.autonomicManager.commons.Param;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 
 /**
  * @author Diego Didona
@@ -29,12 +32,16 @@ public class Main {
    static double[] batches = new double[]{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64};
 
    static String file = "data/batch.data";
+   static String out = "data/batch_train.csv";
 
 
    public static void main(String[] args) throws Exception {
       BufferedReader br = new BufferedReader(new FileReader(new File(file)));
+      PrintWriter pw = new PrintWriter(new FileWriter(new File(out)));
+      //pw.println(Param.AvgTxArrivalRate.getKey()+","+Param.AvgPrepareCommandSize+","+)
       String read;
-      System.out.println("Arr" + " = " + "B" + " = " + "R = R " + " = " + "P"+  " = PaolP");
+      System.out.println("Arr" + " = " + "B" + " = " + "R = R " + " = " + "P" + " = PaolP");
+      BatchingPaoloAnalyticalOracle.overrideDEFS(1500, 7000, 2, 1.79e-5);
       while ((read = br.readLine()) != null) {
          BatchingInputOracle bio = inputFromLine(read);
          double pred = (new BatchingAnalyticalOracle().forecast(bio)).responseTime(0);
