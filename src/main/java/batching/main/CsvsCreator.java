@@ -1,7 +1,5 @@
 package batching.main;
 
-import eu.cloudtm.autonomicManager.commons.Param;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -54,19 +52,30 @@ public class CsvsCreator {
    }
 
    /**
-    * The header. Note that we prefer to use only "plain" params that do not get divided, multiplied or anything
-    * by the radargun parser. This is a massive hack
+    * The header. Note that we prefer to use only "plain" params that do not get divided, multiplied or anything by the
+    * radargun parser. This is a massive hack
+    *
     * @return
     */
    private String header() {
-      String slave = "SLAVE_INDEX";
+      String header = "SLAVE_INDEX,avgNumPutsBySuccessfulLocalTx,avgPrepareCommandSize,avgGetsPerWrTransaction,MEM_USAGE,avgGetsPerROTransaction,localReadOnlyTxLocalServiceTime,localUpdateTxLocalServiceTime,avgClusteredGetCommandReplySize,percentageWriteTransactions,NUM_KEYS,replicationDegree,throughput,readOnlyTxTotalResponseTime,abortRate,localUpdateTxTotalResponseTime,localReadOnlyTxLocalResponseTime,percentageSuccessWriteTransactions";
+     /* String slave = "SLAVE_INDEX";
       String lambda = Param.AvgNumPutsBySuccessfulLocalTx.getKey();
       String batch = Param.AvgPrepareCommandSize.getKey();
       String latency = Param.AvgGetsPerWrTransaction.getKey();
       return slave + "," + lambda + "," + batch + "," + latency;
+      */
+      return header;
    }
 
    private String content(String payload) {
-      return Integer.toString(0) + ",".concat(payload);
+      String content = Integer.toString(0) + ",".concat(payload);
+      long otherLength = header().length() - content.length();
+      StringBuilder sb = new StringBuilder(content);
+
+      for (int i = 0; i < otherLength; i++) {
+         sb.append(",0");
+      }
+      return sb.toString();
    }
 }
