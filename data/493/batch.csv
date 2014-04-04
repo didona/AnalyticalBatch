@@ -1,2 +1,2 @@
 SLAVE_INDEX,avgNumPutsBySuccessfulLocalTx,avgPrepareCommandSize,localUpdateTxTotalResponseTime,avgGetsPerWrTransaction,MEM_USAGE,avgGetsPerROTransaction,localReadOnlyTxLocalServiceTime,localUpdateTxLocalServiceTime,avgClusteredGetCommandReplySize,percentageWriteTransactions,NUM_KEYS,replicationDegree,throughput,readOnlyTxTotalResponseTime,abortRate,localReadOnlyTxLocalResponseTime,percentageSuccessWriteTransactions
-0,1500,8,5945,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,1500,8,5945000,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -16,7 +16,7 @@ import java.io.PrintWriter;
 public class CsvsCreator {
 
    private final String outBaseFolder = "data";
-   private String input = "data/input.data";
+   private String input = "data/input_nsec.csv";
    String header;
 
    public static void main(String[] args) throws Exception {
