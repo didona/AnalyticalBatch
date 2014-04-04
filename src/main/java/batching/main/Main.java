@@ -3,7 +3,6 @@ package batching.main;
 import batching.offline.BatchingAnalyticalOracle;
 import batching.offline.BatchingInputOracle;
 import batching.offline.BatchingPaoloAnalyticalOracle;
-import eu.cloudtm.autonomicManager.commons.Param;
 
 import java.io.BufferedReader;
 import java.io.File;

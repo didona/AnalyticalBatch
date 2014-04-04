@@ -2,7 +2,6 @@ package batching.offline;
 
 import batching.BatchingOutputOracle;
 import eu.cloudtm.autonomicManager.oracles.InputOracle;
-import eu.cloudtm.autonomicManager.oracles.Oracle;
 import eu.cloudtm.autonomicManager.oracles.OutputOracle;
 import eu.cloudtm.autonomicManager.oracles.exceptions.OracleException;
 

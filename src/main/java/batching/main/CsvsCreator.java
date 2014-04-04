@@ -24,6 +24,10 @@ public class CsvsCreator {
       new CsvsCreator().dumpCsvs();
    }
 
+   /**
+    * For each line in the csv, creates a folder with a one-line csv
+    * @throws Exception
+    */
    private void dumpCsvs() throws Exception {
       BufferedReader br = new BufferedReader(new FileReader(new File(input)));
       String read;
@@ -34,6 +38,13 @@ public class CsvsCreator {
       br.close();
    }
 
+   /**
+    * Creates a new one-line batch csv
+    * @param content
+    * @param folderName
+    * @param csvName
+    * @throws Exception
+    */
    private void createNewFile(String content, String folderName, String csvName) throws Exception {
       String folder = outBaseFolder + "/" + folderName;
       File f = new File(folder);
@@ -58,7 +69,7 @@ public class CsvsCreator {
     * @return
     */
    private String header() {
-      String header = "SLAVE_INDEX,avgNumPutsBySuccessfulLocalTx,avgPrepareCommandSize,avgGetsPerWrTransaction,MEM_USAGE,avgGetsPerROTransaction,localReadOnlyTxLocalServiceTime,localUpdateTxLocalServiceTime,avgClusteredGetCommandReplySize,percentageWriteTransactions,NUM_KEYS,replicationDegree,throughput,readOnlyTxTotalResponseTime,abortRate,localUpdateTxTotalResponseTime,localReadOnlyTxLocalResponseTime,percentageSuccessWriteTransactions";
+      String header = "SLAVE_INDEX,avgNumPutsBySuccessfulLocalTx,avgPrepareCommandSize,localUpdateTxTotalResponseTime,avgGetsPerWrTransaction,MEM_USAGE,avgGetsPerROTransaction,localReadOnlyTxLocalServiceTime,localUpdateTxLocalServiceTime,avgClusteredGetCommandReplySize,percentageWriteTransactions,NUM_KEYS,replicationDegree,throughput,readOnlyTxTotalResponseTime,abortRate,localReadOnlyTxLocalResponseTime,percentageSuccessWriteTransactions";
      /* String slave = "SLAVE_INDEX";
       String lambda = Param.AvgNumPutsBySuccessfulLocalTx.getKey();
       String batch = Param.AvgPrepareCommandSize.getKey();
@@ -70,7 +81,7 @@ public class CsvsCreator {
 
    private String content(String payload) {
       String content = Integer.toString(0) + ",".concat(payload);
-      long otherLength = header().length() - content.length();
+      long otherLength = header().split(",").length - content.split(",").length;
       StringBuilder sb = new StringBuilder(content);
 
       for (int i = 0; i < otherLength; i++) {
