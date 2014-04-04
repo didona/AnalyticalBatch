@@ -12,16 +12,21 @@ import eu.cloudtm.autonomicManager.oracles.InputOracle;
  */
 public class BatchingInputOracle implements InputOracle {
 
-   private double arrivalRate;
-   private double batchingLevel;
-   private double realSelfDeliveryTime;
-   private double predSelfDeliveryTime;
+   private double arrivalRate = -1;
+   private double batchingLevel = -1;
+   private double realSelfDeliveryTime = -1;
+   private double predSelfDeliveryTime = -1;
 
    public BatchingInputOracle(double arrivalRate, double batchingLevel, double realSelfDeliveryTime, double predSelfDeliveryTime) {
       this.arrivalRate = arrivalRate;
       this.batchingLevel = batchingLevel;
       this.realSelfDeliveryTime = realSelfDeliveryTime;
       this.predSelfDeliveryTime = predSelfDeliveryTime;
+   }
+
+   public BatchingInputOracle(double l, double b) {
+      this.arrivalRate = l;
+      this.batchingLevel = b;
    }
 
    public double getArrivalRate() {
