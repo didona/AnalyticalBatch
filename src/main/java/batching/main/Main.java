@@ -30,7 +30,7 @@ public class Main {
                                           11500, 12000, 12500, 13000};
    static double[] batches = new double[]{1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64};
 
-   static String file = "data/batch.data";
+   static String file = "data/batch_500.data";
    static String out = "data/batch_train.csv";
 
 

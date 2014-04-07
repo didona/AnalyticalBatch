@@ -24,10 +24,21 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
    private double minRateToStartBatching;
    private double maxThroughput;
 
+   private static double cutOff = 100000;
+
    private static double DEF_NET = 200;
    private static double DEF_SEQ_RATE = 5000;
    private static double DEF_C = 2;
    private static double DEF_BOOK_RATE = 1.0D / 26000D;
+
+
+   public static void cutOff100() {
+      cutOff = 100000;
+   }
+
+   public static void cutOff500() {
+      cutOff = 500000;
+   }
 
 
    private static final int MAX_BATCHING_VALUE = 128;
@@ -37,12 +48,36 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
       overrideDEFS(200, 5000, 2, 1D / 26000D);
    }
 
-   public static void optimalValues() {
-      overrideDEFS(2500, 8000, 3, 4.16e-5);
+   public static void optimalMAPEValues() {
+      if (cutOff == 500000)
+         overrideDEFS(2500, 8000, 3, 4.16e-5);
+      else {
+         overrideDEFS(2500, 6000, 4, 5.55e-5);
+      }
    }
 
-   public static void mediumValues() {
-      overrideDEFS(2000, 7000, 2, 1.42e-5);
+   public static void optimalRMSEValues() {
+      if (cutOff == 500000) {
+         overrideDEFS(18000, 8500, 5, 5.88e-5);
+      } else {
+         overrideDEFS(500, 6000, 4, 5.55e-5);
+      }
+   }
+
+   public static void mediumMAPEValues() {
+      if (cutOff == 500000)
+         overrideDEFS(2000, 7000, 2, 1.42e-5);
+      else {
+         overrideDEFS(2000, 6000, 2, 1.85e-5);
+      }
+   }
+
+   public static void mediumRMSEValues() {
+      if (cutOff == 500000) {
+         overrideDEFS(6000, 8500, 2, 3.92e-5);
+      } else {
+         overrideDEFS(1500, 6000, 2, 3.33e-5);
+      }
    }
 
 
@@ -179,14 +214,15 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
       double ret;
       if (rate <= 0)
          ret = 0;
-      if (batch < 1)
+      else if (batch < 1)
          ret = 0;
-      if (1.0D / (1.0D / seqRate + ((double) batch - 1.0D) / (c * rate) + (bookKeepRate) * ((double) batch - 1.0D)) - rate / (double) batch < 1.0D)
-         ret = 500000;
-      ret = net + 1000000.0D / (1.0D / (1.0D / seqRate + ((double) batch - 1.0D) / (c * rate) + (bookKeepRate) * ((double) batch - 1.0D)) - rate / (double) batch);
+      else if (1.0D / (1.0D / seqRate + ((double) batch - 1.0D) / (c * rate) + (bookKeepRate) * ((double) batch - 1.0D)) - rate / (double) batch < 1.0D)
+         ret = cutOff;
+      else
+         ret = net + 1000000.0D / (1.0D / (1.0D / seqRate + ((double) batch - 1.0D) / (c * rate) + (bookKeepRate) * ((double) batch - 1.0D)) - rate / (double) batch);
 
-      if (ret > 500000 || ret < 0)
-         ret = 500000;
+      if (ret > cutOff || ret < 0)
+         ret = cutOff;
 
       return ret;
    }

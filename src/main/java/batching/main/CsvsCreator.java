@@ -15,8 +15,9 @@ import java.io.PrintWriter;
  */
 public class CsvsCreator {
 
+
    private final String outBaseFolder = "data";
-   private String input = "data/input_nsec.csv";
+   private String input = "data/input_nsec_100.csv";
    String header;
 
    public static void main(String[] args) throws Exception {
@@ -26,12 +27,13 @@ public class CsvsCreator {
 
    /**
     * For each line in the csv, creates a folder with a one-line csv
+    *
     * @throws Exception
     */
    private void dumpCsvs() throws Exception {
       BufferedReader br = new BufferedReader(new FileReader(new File(input)));
       String read;
-      int i = 1;
+      int i = 1000;
       while ((read = br.readLine()) != null) {
          createNewFile(read, Integer.toString(i++), "batch");
       }
@@ -40,6 +42,7 @@ public class CsvsCreator {
 
    /**
     * Creates a new one-line batch csv
+    *
     * @param content
     * @param folderName
     * @param csvName
@@ -58,6 +61,7 @@ public class CsvsCreator {
       PrintWriter pw = new PrintWriter(new FileWriter(out));
       pw.println(header());
       pw.print(content(content));
+      System.out.println("Writing " + content);
       pw.close();
 
    }

@@ -20,7 +20,7 @@ import java.util.Map;
  */
 public class AnalyticalFileBasedBatchingOracle implements Oracle {
 
-   private final static String file = "data/batch.data";
+   private final static String file = "data/batch_500.data";
    private Map<BatchingInputOracle, BatchingOutputOracle> map = new HashMap<BatchingInputOracle, BatchingOutputOracle>();
    private final static String sep = ",";
    private final static int L = 0;

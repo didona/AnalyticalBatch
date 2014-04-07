@@ -67,44 +67,10 @@
       <file leaf-file-name="CsvsCreator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/CsvsCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="46" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="batch.csv" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/7/batch.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchingOutputOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="35" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="54" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
+            <state line="32" column="21" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1470">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,37 +78,85 @@
       <file leaf-file-name="FitPaolo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1305">
+            <state line="31" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-2.8846154" vertical-offset="270" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="batch.data" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/batch.data">
+      <file leaf-file-name="out_100.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/out_100.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="7980">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2590755">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingInputOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
+      <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
+            <state line="72" column="27" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.36253777" vertical-offset="945" max-vertical-offset="3630">
               <folding>
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="method#dumpGrid#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#dumpOptimal#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#stressTest#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.data" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/input.data">
+      <file leaf-file-name="input_500.data" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/input_500.data">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="7444" max-vertical-offset="7980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_100.data" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/input_100.data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="12" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="5299" max-vertical-offset="7980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_nsec_100.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/input_nsec_100.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="15" selection-start="206" selection-end="206" vertical-scroll-proportion="97.94444" vertical-offset="5469" max-vertical-offset="7980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cutter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Cutter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="64" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="945">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="batch_100.data" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/batch_100.data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="253" column="13" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0" vertical-offset="7459" max-vertical-offset="7995">
               <folding />
             </state>
           </provider>
@@ -162,21 +176,26 @@
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingPredictor.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingOracle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalBatchingMetaOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/AnalyticalFileBasedBatchingOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingInputOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalFileBasedBatchingOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOfflineOracle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/batching/main/Main.java" />
         <option value="$PROJECT_DIR$/data/batch.data" />
-        <option value="$PROJECT_DIR$/data/input.data" />
         <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOracle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
         <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java" />
+        <option value="$PROJECT_DIR$/data/input.data" />
+        <option value="$PROJECT_DIR$/data/input_nsec.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
+        <option value="$PROJECT_DIR$/data/batch_500.data" />
         <option value="$PROJECT_DIR$/src/main/java/batching/main/CsvsCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/main/Cutter.java" />
+        <option value="$PROJECT_DIR$/data/input_100.data" />
+        <option value="$PROJECT_DIR$/data/input_nsec_100.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
       </list>
     </option>
   </component>
@@ -211,6 +230,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +285,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batching" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -283,14 +333,121 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7" />
+              <option name="myItemId" value="1526" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1495" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1491" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1000" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="523" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="502" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ensemble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalyticalBatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="463" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +472,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CsvsCreator">
+  <component name="RunManager" selected="Application.FitPaolo">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="batching.main.Main" />
       <option name="VM_PARAMETERS" />
@@ -356,6 +513,22 @@
     </configuration>
     <configuration default="false" name="CsvsCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="batching.main.CsvsCreator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ensemble" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Cutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="batching.main.Cutter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -431,16 +604,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.FitPaolo" />
       <item index="2" class="java.lang.String" itemvalue="Application.CsvsCreator" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Cutter" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.CsvsCreator" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FitPaolo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.FitPaolo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CsvsCreator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Cutter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -472,6 +647,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -484,10 +660,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -513,82 +688,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="42" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="27" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="3225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/batch.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="92" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="7980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/input.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="7980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="9" selection-start="1429" selection-end="2342" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1005">
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="method#inputFromLine#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalFileBasedBatchingOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="146" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/deprecated/AnalyticalBatchingMetaOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="405" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
-          <folding />
+          <folding>
+            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#responseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceThroughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceAbortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceResponseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/batch.data">
+    <entry file="file://$PROJECT_DIR$/data/batch_500.data">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
           <folding />
@@ -609,20 +719,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="161" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="870">
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="method#inputFromLine#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +750,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
-          <folding />
+          <folding>
+            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#responseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceThroughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceAbortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceResponseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/batch.data">
+    <entry file="file://$PROJECT_DIR$/data/batch_500.data">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
           <folding />
@@ -667,20 +778,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="161" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="870">
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="method#inputFromLine#0;class#Main#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +809,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
-          <folding />
+          <folding>
+            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#responseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceThroughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceAbortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceResponseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -718,10 +830,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,51 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.6958955" vertical-offset="47" max-vertical-offset="585">
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="method#inputFromLine#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingAnalyticalOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="37" selection-start="1474" selection-end="1474" vertical-scroll-proportion="-0.36363637" vertical-offset="510" max-vertical-offset="855">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="35" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,31 +875,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/batch.data">
+    <entry file="file://$PROJECT_DIR$/data/7/batch.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="7980">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/input.data">
+    <entry file="file://$PROJECT_DIR$/data/523/batch.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
+        <state line="1" column="17" selection-start="434" selection-end="436" vertical-scroll-proportion="0.028571429" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1000/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="48" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="17" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1525/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1521/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1522/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/463/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="432" selection-end="435" vertical-scroll-proportion="0.04531722" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1491/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="432" selection-end="435" vertical-scroll-proportion="0.04531722" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1495/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="432" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/502/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="690">
+          <folding>
+            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#responseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceThroughput#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceAbortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#getConfidenceResponseTime#0;class#BatchingOutputOracle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Cutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="64" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="945">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1526/batch.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="435" selection-end="438" vertical-scroll-proportion="0.04531722" vertical-offset="0" max-vertical-offset="331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/batch_500.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/batch_100.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="13" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0" vertical-offset="7459" max-vertical-offset="7995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input_100.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="5299" max-vertical-offset="7980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input_500.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input_nsec_500.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="5" selection-end="14" vertical-scroll-proportion="-4.2817163" vertical-offset="2295" max-vertical-offset="7995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input_nsec_100.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="206" selection-end="206" vertical-scroll-proportion="97.94444" vertical-offset="5469" max-vertical-offset="7980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/CsvsCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
+        <state line="32" column="21" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1470">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="-2.8846154" vertical-offset="270" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/7/batch.csv">
+    <entry file="file://$PROJECT_DIR$/data/out_100.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2590755">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="27" selection-start="1705" selection-end="1705" vertical-scroll-proportion="0.36253777" vertical-offset="945" max-vertical-offset="3630">
+          <folding>
+            <element signature="method#dumpGrid#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#dumpOptimal#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#stressTest#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

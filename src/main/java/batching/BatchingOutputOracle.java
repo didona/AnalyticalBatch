@@ -15,10 +15,6 @@ public class BatchingOutputOracle implements OutputOracle {
       this.selfDeliveryTime = selfDeliveryTime;
    }
 
-   public void setSelfDeliveryTime(double selfDeliveryTime) {
-      this.selfDeliveryTime = selfDeliveryTime;
-   }
-
    @Override
    public double throughput(int i) {
       throw new UnsupportedOperationException("Not supported");
