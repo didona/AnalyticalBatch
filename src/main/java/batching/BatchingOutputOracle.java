@@ -27,7 +27,11 @@ public class BatchingOutputOracle implements OutputOracle {
 
    @Override
    public double responseTime(int i) {
-      return selfDeliveryTime;
+      if (i == 1) {
+         return selfDeliveryTime;
+      } else {
+         return 0D;
+      }
    }
 
    @Override
