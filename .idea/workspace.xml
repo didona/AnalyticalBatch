@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70896c5-2f35-4390-a742-0e60f81a25a8" name="Default" comment="" />
+    <list default="true" id="a70896c5-2f35-4390-a742-0e60f81a25a8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" afterPath="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Ensemble.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,14 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingOutputOracle.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BatchingOutputOracle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4197761" vertical-offset="135" max-vertical-offset="870">
-              <folding>
-                <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
-                <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
-              </folding>
+            <state line="34" column="39" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="930">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,11 +105,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="43" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="4035">
-              <folding />
+            <state line="76" column="6" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.6596154" vertical-offset="467" max-vertical-offset="3645">
+              <folding>
+                <element signature="method#cutOff100#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#cutOff500#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#overrideDEFS#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#optimalMAPEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#optimalRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+                <element signature="method#mediumRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +173,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -188,18 +200,18 @@
         <option value="$PROJECT_DIR$/data/input_100.data" />
         <option value="$PROJECT_DIR$/data/input_nsec_100.csv" />
         <option value="$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="height" value="702" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -225,7 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -303,6 +314,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,7 +506,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="705" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="702" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,9 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -582,10 +592,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
-          <folding>
-            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
-            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,9 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -633,10 +638,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="119" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="930">
-          <folding>
-            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
-            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,9 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="38" column="44" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/eu/cloudtm/AutonomicManager/1.0-SNAPSHOT/autonomicManager-1.0-SNAPSHOT.jar!/eu/cloudtm/autonomicManager/commons/Param.class">
@@ -699,9 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingInputOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="39" column="17" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/1525/batch.csv">
@@ -738,7 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="64" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="945">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -768,16 +766,16 @@
         <state line="0" column="14" selection-start="5" selection-end="14" vertical-scroll-proportion="-4.2817163" vertical-offset="2295" max-vertical-offset="7995" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/input_nsec_100.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7980">
+        <state line="37" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state line="17" column="8" selection-start="623" selection-end="623" vertical-scroll-proportion="0.47574627" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
@@ -792,6 +790,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/FitPaolo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="39" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
@@ -831,26 +836,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/input_nsec_100.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="15" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="2715" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="623" selection-end="623" vertical-scroll-proportion="0.47574627" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="661" selection-end="661" vertical-scroll-proportion="0.4197761" vertical-offset="135" max-vertical-offset="870">
+        <state line="76" column="6" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.6596154" vertical-offset="467" max-vertical-offset="3645">
           <folding>
-            <element signature="method#throughput#0;class#BatchingOutputOracle#0" expanded="false" />
-            <element signature="method#abortRate#0;class#BatchingOutputOracle#0" expanded="false" />
+            <element signature="method#cutOff100#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#cutOff500#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#overrideDEFS#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#optimalMAPEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#optimalRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
+            <element signature="method#mediumRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
           </folding>
         </state>
       </provider>

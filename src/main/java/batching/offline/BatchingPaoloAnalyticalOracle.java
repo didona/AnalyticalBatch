@@ -40,6 +40,12 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
       cutOff = 500000;
    }
 
+   public static void overrideDEFS(double net, double seq, double c, double book) {
+      DEF_NET = net;
+      DEF_SEQ_RATE = seq;
+      DEF_C = c;
+      DEF_BOOK_RATE = book;
+   }
 
    private static final int MAX_BATCHING_VALUE = 128;
    private static final int MAX_RATE_VALUE = 20000;
@@ -65,9 +71,10 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
    }
 
    public static void mediumMAPEValues() {
-      if (cutOff == 500000)
-         overrideDEFS(2000, 7000, 2, 1.42e-5);
-      else {
+      if (cutOff == 500000) {
+         //overrideDEFS(2000, 7000, 2, 1.42e-5);
+         overrideDEFS(0, 8000, 2, 1.78e-5);
+      } else {
          overrideDEFS(2000, 6000, 2, 1.85e-5);
       }
    }
@@ -80,13 +87,6 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
       }
    }
 
-
-   public static void overrideDEFS(double net, double seq, double c, double book) {
-      DEF_NET = net;
-      DEF_SEQ_RATE = seq;
-      DEF_C = c;
-      DEF_BOOK_RATE = book;
-   }
 
    public BatchingPaoloAnalyticalOracle() {
       net = DEF_NET;
@@ -210,6 +210,8 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
     * @param rate
     * @param batch
     */
+
+
    public double getVal(double rate, int batch) {
       double ret;
       if (rate <= 0)
