@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a70896c5-2f35-4390-a742-0e60f81a25a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" afterPath="$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ensemble.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,15 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatchingOutputOracle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/batching/BatchingOutputOracle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="39" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="930">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="out_100.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/out_100.csv">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +96,7 @@
       <file leaf-file-name="BatchingPaoloAnalyticalOracle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="6" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.6596154" vertical-offset="467" max-vertical-offset="3645">
+            <state line="244" column="100" selection-start="7593" selection-end="7593" vertical-scroll-proportion="0.54913294" vertical-offset="3050" max-vertical-offset="3825">
               <folding>
                 <element signature="method#cutOff100#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
                 <element signature="method#cutOff500#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
@@ -117,6 +105,15 @@
                 <element signature="method#optimalRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
                 <element signature="method#mediumRMSEValues#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="615">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -339,7 +336,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FitPaolo">
+  <component name="RunManager" selected="Application.BatchingPaoloAnalyticalOracle">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="batching.main.Main" />
       <option name="VM_PARAMETERS" />
@@ -396,6 +393,22 @@
     </configuration>
     <configuration default="false" name="Cutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="batching.main.Cutter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Ensemble" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatchingPaoloAnalyticalOracle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="batching.offline.BatchingPaoloAnalyticalOracle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -471,18 +484,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.FitPaolo" />
       <item index="2" class="java.lang.String" itemvalue="Application.CsvsCreator" />
       <item index="3" class="java.lang.String" itemvalue="Application.Cutter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BatchingPaoloAnalyticalOracle" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.FitPaolo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CsvsCreator" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Cutter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BatchingPaoloAnalyticalOracle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FitPaolo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CsvsCreator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Cutter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -519,17 +534,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2979452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -773,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="623" selection-end="623" vertical-scroll-proportion="0.47574627" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/main/CsvsCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1470">
@@ -843,9 +851,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/batching/offline/BatchingPaoloAnalyticalOracle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="6" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.6596154" vertical-offset="467" max-vertical-offset="3645">
+        <state line="244" column="100" selection-start="7593" selection-end="7593" vertical-scroll-proportion="0.54913294" vertical-offset="3050" max-vertical-offset="3825">
           <folding>
             <element signature="method#cutOff100#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />
             <element signature="method#cutOff500#0;class#BatchingPaoloAnalyticalOracle#0" expanded="false" />

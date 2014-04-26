@@ -235,10 +235,15 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
          // Create file
          FileWriter fstream = new FileWriter("analyticalDataGrid");
          BufferedWriter out = new BufferedWriter(fstream);
-         for (int rate = 1; rate < MAX_RATE_VALUE; rate += 1000)
-            for (int batch = 1; batch < MAX_BATCHING_VALUE; batch += batch)
+         for (int rate = 1; rate <= MAX_RATE_VALUE; rate += 1000) {
+            for (int batch = 1; batch < MAX_BATCHING_VALUE; batch += batch) {
                //out.write(rate+" "+batch+" "+getVal(rate,batch)+"\n");
                System.out.print(rate + " " + batch + " " + getVal(rate, batch) + "\n");
+            }
+            if (rate == 1)
+               rate = 0;
+            System.out.print("\n");
+         }
          //Close the output stream
          out.close();
       } catch (Exception e) {//Catch exception if any
@@ -260,6 +265,13 @@ public class BatchingPaoloAnalyticalOracle extends BatchingAnalyticalOracle {
          getOptimalBatchingValue(rate);
       t = System.nanoTime() - t;
       System.out.println(t / 14000);
+   }
+
+
+   public static void main(String[] args) {
+      BatchingPaoloAnalyticalOracle.cutOff500();
+      BatchingPaoloAnalyticalOracle.mediumMAPEValues();
+      new BatchingPaoloAnalyticalOracle().dumpGrid();
    }
 
 }
